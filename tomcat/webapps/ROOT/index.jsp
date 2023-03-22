@@ -16,7 +16,7 @@ Random rand = new Random();
 int randomNum = rand.nextInt(1000);
 %>
 
-<p>The random number generated is <%=randomNum%>.</p>
+<p>The random number generated is: <%=randomNum%>.</p>
 
 <%
 }
