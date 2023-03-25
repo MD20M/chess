@@ -26,14 +26,5 @@
   <description>
      Welcome to Tomcat
   </description>
-<servlet>  
-<servlet-name>Test</servlet-name>  
-<servlet-class>Main</servlet-class>  
-</servlet>  
-  
-<servlet-mapping>  
-<servlet-name>Test</servlet-name>  
-<url-pattern>/welcome</url-pattern>  
-</servlet-mapping>  
 
 </web-app>

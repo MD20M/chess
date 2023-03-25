@@ -1,0 +1,1278 @@
+24-Mar-2023 17:58:25.343 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 17:58:25.346 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 17:58:25.350 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a5b0b86')
+24-Mar-2023 17:58:37.448 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+24:     <input type="number" id="min" name="min" value="0">
+25:     <label for="max">Max Value:</label>
+26:     <input type="number" id="max" name="max" value="100">
+27:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+28:     <table>
+29:         <thead>
+30:             <tr>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+24:     <input type="number" id="min" name="min" value="0">
+25:     <label for="max">Max Value:</label>
+26:     <input type="number" id="max" name="max" value="100">
+27:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+28:     <table>
+29:         <thead>
+30:             <tr>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 17:59:06.334 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 17:59:06.335 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 17:59:09.503 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 17:59:09.505 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 17:59:09.507 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+24-Mar-2023 17:59:15.073 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "void", new expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+generateRandomNumbers cannot be resolved to a type
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+13:     }
+14: %>
+15: 
+16: <!DOCTYPE html>
+
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [189] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "void", new expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+generateRandomNumbers cannot be resolved to a type
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+13:     }
+14: %>
+15: 
+16: <!DOCTYPE html>
+
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [189] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 17:59:50.005 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 17:59:50.005 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 17:59:53.092 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 17:59:53.092 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 17:59:53.095 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+24-Mar-2023 17:59:57.437 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+24:     <input type="number" id="min" name="min" value="0">
+25:     <label for="max">Max Value:</label>
+26:     <input type="number" id="max" name="max" value="100">
+27:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+28:     <table>
+29:         <thead>
+30:             <tr>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers(int min, int max) {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+24:     <input type="number" id="min" name="min" value="0">
+25:     <label for="max">Max Value:</label>
+26:     <input type="number" id="max" name="max" value="100">
+27:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+28:     <table>
+29:         <thead>
+30:             <tr>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:00:53.968 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:00:53.968 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:01:03.300 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:01:03.300 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:01:03.302 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3234f74e')
+24-Mar-2023 18:01:06.745 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:01:32.334 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:01:32.334 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:01:35.659 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:01:35.661 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:01:35.662 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+24-Mar-2023 18:01:40.834 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     public static void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:01:52.157 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:01:52.158 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:01:55.042 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:01:55.048 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:01:55.051 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7e3060d8')
+24-Mar-2023 18:02:44.832 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+void is an invalid type for the variable generateRandomNumbers
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+6: %>
+7: <%
+8:     // Declare a method to generate random numbers
+9:     void generateRandomNumbers(int min, int max) {
+10:         Random rand = new Random();
+11:         for (int i = 0; i < size; i++) {
+12:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method generateRandomNumbers(int, int) is undefined for the type index_jsp
+25:     <input type="number" id="min" name="min" value="0">
+26:     <label for="max">Max Value:</label>
+27:     <input type="number" id="max" name="max" value="100">
+28:     <button onclick="<%=generateRandomNumbers(Integer.parseInt(request.getParameter("min")), Integer.parseInt(request.getParameter("max")))%>">Generate Numbers</button>
+29:     <table>
+30:         <thead>
+31:             <tr>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:04:03.514 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:04:03.514 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:04:06.117 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:04:06.119 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:04:06.120 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2692b61e')
+24-Mar-2023 18:04:25.522 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+11:         }
+12:         return numbers;
+13:     }
+14: %>
+15: <html>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+4:     int[] numbers = new int[size];
+5:     
+6:     // Define a method to generate random numbers
+7:     int[] generateRandomNumbers(int min, int max) {
+8:         Random rand = new Random();
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+9:         for (int i = 0; i < size; i++) {
+10:             numbers[i] = rand.nextInt((max - min) + 1) + min;
+11:         }
+12:         return numbers;
+13:     }
+14: %>
+15: <html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:10:03.792 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:10:03.792 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:10:06.773 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:10:06.777 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:10:06.781 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@275fe372')
+24-Mar-2023 18:10:29.349 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:10:29.354 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:10:33.025 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:10:33.027 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:10:33.030 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@40e10ff8')
+24-Mar-2023 18:10:38.375 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "void", new expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+generateRandomNumbers cannot be resolved to a type
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+13:     }
+14: %>
+15: 
+16: <!DOCTYPE html>
+
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [189] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+Syntax error on token "void", new expected
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [8] in the jsp file: [/index.jsp]
+generateRandomNumbers cannot be resolved to a type
+5:     int[] numbers = new int[size];
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [9] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+6:     
+7:     // Define a method to generate random numbers
+8:     void generateRandomNumbers() {
+9:         Random rand = new Random();
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+
+
+An error occurred at line: [13] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+10:         for (int i = 0; i < size; i++) {
+11:             numbers[i] = rand.nextInt(100);
+12:         }
+13:     }
+14: %>
+15: 
+16: <!DOCTYPE html>
+
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [175] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [189] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+24-Mar-2023 18:11:24.722 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Mar-2023 18:11:24.722 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Mar-2023 18:11:27.421 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Mar-2023 18:11:27.430 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Mar-2023 18:11:27.432 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')

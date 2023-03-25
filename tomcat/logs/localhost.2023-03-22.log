@@ -238,3 +238,1487 @@ Stacktrace:
 22-Mar-2023 15:14:32.604 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
 22-Mar-2023 15:14:58.072 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
 22-Mar-2023 15:14:58.073 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 15:38:19.385 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 15:38:19.386 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 15:38:19.389 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 15:38:58.561 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 15:38:58.561 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 15:39:02.005 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 15:39:02.006 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 15:39:02.009 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2dbf4cbd')
+22-Mar-2023 15:40:20.309 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 15:40:20.309 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 15:40:22.869 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 15:40:22.870 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 15:40:22.871 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+22-Mar-2023 15:40:26.765 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+13: </form>
+14: 
+15: <%
+16: out.print("<p>HHHHHHHHHHHH</p>")
+17: String name = request.getParameter("name");
+18: String age = request.getParameter("age");
+19: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete Statement
+13: </form>
+14: 
+15: <%
+16: out.print("<p>HHHHHHHHHHHH</p>")
+17: String name = request.getParameter("name");
+18: String age = request.getParameter("age");
+19: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 15:40:40.676 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 15:40:40.676 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 15:40:43.520 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 15:40:43.521 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 15:40:43.524 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7fc44dec')
+22-Mar-2023 16:43:20.229 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:43:20.232 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:43:20.234 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+22-Mar-2023 16:44:08.981 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 16:44:08.982 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 16:44:12.520 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:44:12.521 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:44:12.522 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+22-Mar-2023 16:44:32.657 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 16:44:32.658 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 16:44:35.715 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:44:35.716 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:44:35.718 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 16:49:28.063 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 16:49:28.063 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 16:49:31.271 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:49:31.272 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:49:31.274 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@b968a76')
+22-Mar-2023 16:49:35.306 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+36:             out.println("<td class=\"black\">");
+37:         }
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+
+
+An error occurred at line: [41] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+
+
+An error occurred at line: [43] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+47:             out.println("</td>");
+48:         }
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [75] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+72:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+73:             break;
+74:     }
+75:     return html;
+76: }
+77: %>
+78: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+36:             out.println("<td class=\"black\">");
+37:         }
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+
+
+An error occurred at line: [41] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+
+
+An error occurred at line: [43] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+47:             out.println("</td>");
+48:         }
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [75] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+72:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+73:             break;
+74:     }
+75:     return html;
+76: }
+77: %>
+78: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 16:49:48.825 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 16:49:48.826 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 16:49:52.139 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:49:52.140 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:49:52.143 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+22-Mar-2023 16:49:55.544 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+36:             out.println("<td class=\"black\">");
+37:         }
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+
+
+An error occurred at line: [41] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+
+
+An error occurred at line: [43] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+47:             out.println("</td>");
+48:         }
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [75] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+72:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+73:             break;
+74:     }
+75:     return html;
+76: }
+77: %>
+78: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+36:             out.println("<td class=\"black\">");
+37:         }
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+
+
+An error occurred at line: [41] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+38:         if (i == 0) {
+39:             out.println(getPiece(pieces[j], "black"));
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+
+
+An error occurred at line: [43] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+40:         } else if (i == 1) {
+41:             out.println(getPiece("pawn", "black"));
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+42:         } else if (i == 6) {
+43:             out.println(getPiece("pawn", "white"));
+44:         } else if (i == 7) {
+45:             out.println(getPiece(pieces[j], "white"));
+46:         } else {
+47:             out.println("</td>");
+48:         }
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [53] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+50:     out.println("</tr>");
+51: }
+52: 
+53: public String getPiece(String piece, String color) {
+54:     String html = "";
+55:     switch (piece) {
+56:         case "king":
+
+
+An error occurred at line: [75] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+72:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+73:             break;
+74:     }
+75:     return html;
+76: }
+77: %>
+78: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 16:51:51.880 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 16:51:51.880 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 16:51:54.803 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 16:51:54.805 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 16:51:54.806 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@b968a76')
+22-Mar-2023 16:51:58.844 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+35:             out.println("<td class=\"black\">");
+36:         }
+37:         if (i == 0) {
+38:             out.println(getPiece(pieces[j], "black"));
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+
+
+An error occurred at line: [40] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+37:         if (i == 0) {
+38:             out.println(getPiece(pieces[j], "black"));
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+
+
+An error occurred at line: [42] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+44:             out.println(getPiece(pieces[j], "white"));
+45:         } else {
+
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+44:             out.println(getPiece(pieces[j], "white"));
+45:         } else {
+46:             out.println("</td>");
+47:         }
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [81] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+78:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+79:             break;
+80:     }
+81:     return html;
+82: }
+83: %>
+84: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+35:             out.println("<td class=\"black\">");
+36:         }
+37:         if (i == 0) {
+38:             out.println(getPiece(pieces[j], "black"));
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+
+
+An error occurred at line: [40] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+37:         if (i == 0) {
+38:             out.println(getPiece(pieces[j], "black"));
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+
+
+An error occurred at line: [42] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+39:         } else if (i == 1) {
+40:             out.println(getPiece("pawn", "black"));
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+44:             out.println(getPiece(pieces[j], "white"));
+45:         } else {
+
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+The method getPiece(String, String) is undefined for the type index_jsp
+41:         } else if (i == 6) {
+42:             out.println(getPiece("pawn", "white"));
+43:         } else if (i == 7) {
+44:             out.println(getPiece(pieces[j], "white"));
+45:         } else {
+46:             out.println("</td>");
+47:         }
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Illegal modifier for the variable getPiece; only final is permitted
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token "(", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token ",", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [59] in the jsp file: [/index.jsp]
+Syntax error on token ")", ; expected
+56: </form>
+57: 
+58: <%
+59: public String getPiece(String piece, String color) {
+60:     String html = "";
+61:     switch (piece) {
+62:         case "king":
+
+
+An error occurred at line: [81] in the jsp file: [/index.jsp]
+Void methods cannot return a value
+78:             html = "<p>" + (color.equals("white") ? "&#9817;" : "&#9823;") + "</p>";
+79:             break;
+80:     }
+81:     return html;
+82: }
+83: %>
+84: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 17:02:54.769 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:02:54.770 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:02:57.628 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:02:57.628 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:02:57.630 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+22-Mar-2023 17:03:34.280 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:03:34.280 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:03:37.375 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:03:37.376 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:03:37.378 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+22-Mar-2023 17:04:24.864 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:04:24.865 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:04:27.989 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:04:27.989 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:04:27.991 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bc10d84')
+22-Mar-2023 17:05:16.756 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:05:16.758 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:05:19.568 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:05:19.571 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:05:19.573 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+22-Mar-2023 17:05:58.642 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:05:58.642 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:06:01.612 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:06:01.613 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:06:01.615 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@62fad19')
+22-Mar-2023 17:06:04.778 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [An exception occurred processing [/index.jsp] at line [52]
+
+49:             String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+50:             index ++;
+51: %>
+52:             <div class="square <%=squareColor%>"><%=figures[index]%></div>
+53:             
+54: <%
+55:         }
+
+
+Stacktrace:] with root cause
+	java.lang.ArrayIndexOutOfBoundsException: Index 64 out of bounds for length 64
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:177)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 17:06:24.017 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:06:24.017 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:06:26.741 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:06:26.742 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:06:26.743 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@55e8ec2f')
+22-Mar-2023 17:08:02.998 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:08:02.998 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:08:05.596 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:08:05.596 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:08:05.599 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+22-Mar-2023 17:09:27.426 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:09:27.427 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:09:30.168 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:09:30.169 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:09:30.170 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7b64240d')
+22-Mar-2023 17:10:16.243 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:10:16.243 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:10:18.837 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:10:18.838 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:10:18.840 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+22-Mar-2023 17:10:55.053 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:10:55.054 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:21:14.241 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:21:14.243 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:21:14.244 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+22-Mar-2023 17:22:17.005 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:22:17.006 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:22:20.357 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:22:20.361 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:22:20.362 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+22-Mar-2023 17:24:31.880 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 17:24:31.880 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 17:24:34.574 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 17:24:34.575 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 17:24:34.577 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+22-Mar-2023 18:01:53.300 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:01:53.300 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:01:53.303 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@553f1d75')
+22-Mar-2023 18:01:53.487 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:01:53.487 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:01:54.271 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:01:54.271 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:01:58.481 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:01:58.483 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:01:58.484 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@293d0107')
+22-Mar-2023 18:05:45.282 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:05:45.283 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:08:34.485 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:08:34.486 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:08:34.489 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@55e8ec2f')
+22-Mar-2023 18:08:42.278 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/index.jsp]
+String literal is not properly closed by a double-quote
+34:     </form>
+35:     <div class="board">
+36:         <% 
+37:         String[] figures = {"♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>"};
+38:         int index = 0;
+39:         for (int row = 1; row <= 8; row++) {
+40:             for (int col = 1; col <= 8; col++) {
+
+
+An error occurred at line: [37] in the jsp file: [/index.jsp]
+String literal is not properly closed by a double-quote
+34:     </form>
+35:     <div class="board">
+36:         <% 
+37:         String[] figures = {"♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>"};
+38:         int index = 0;
+39:         for (int row = 1; row <= 8; row++) {
+40:             for (int col = 1; col <= 8; col++) {
+
+
+An error occurred at line: [47] in the jsp file: [/index.jsp]
+Syntax error on token "catch", Identifier expected
+44:                 <% 
+45:             } 
+46:         } 
+47:         %>
+48:     </div>
+49: </body>
+50: </html>
+
+
+An error occurred at line: [199] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [199] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [202] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [203] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [205] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [208] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [208] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [211] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/index.jsp]
+String literal is not properly closed by a double-quote
+34:     </form>
+35:     <div class="board">
+36:         <% 
+37:         String[] figures = {"♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>"};
+38:         int index = 0;
+39:         for (int row = 1; row <= 8; row++) {
+40:             for (int col = 1; col <= 8; col++) {
+
+
+An error occurred at line: [37] in the jsp file: [/index.jsp]
+String literal is not properly closed by a double-quote
+34:     </form>
+35:     <div class="board">
+36:         <% 
+37:         String[] figures = {"♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>", "<%=(int)(Math.random()*8+1)%>"};
+38:         int index = 0;
+39:         for (int row = 1; row <= 8; row++) {
+40:             for (int col = 1; col <= 8; col++) {
+
+
+An error occurred at line: [47] in the jsp file: [/index.jsp]
+Syntax error on token "catch", Identifier expected
+44:                 <% 
+45:             } 
+46:         } 
+47:         %>
+48:     </div>
+49: </body>
+50: </html>
+
+
+An error occurred at line: [199] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [199] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [200] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [202] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [203] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [205] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [208] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [208] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [211] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 18:17:03.013 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:17:03.014 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:17:05.927 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:17:05.928 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:17:05.931 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bc10d84')
+22-Mar-2023 18:22:08.795 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:22:08.795 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:22:11.627 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:22:11.629 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:22:11.630 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2692b61e')
+22-Mar-2023 18:22:14.280 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Type mismatch: cannot convert from int to String
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+randomNum cannot be resolved to a variable
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+48:                     figure = String.valueOf(session.getAttribute("randomNum"));
+
+
+An error occurred at line: [46] in the jsp file: [/index.jsp]
+randomNum cannot be resolved to a variable
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+48:                     figure = String.valueOf(session.getAttribute("randomNum"));
+49:                 }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Type mismatch: cannot convert from int to String
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+randomNum cannot be resolved to a variable
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+48:                     figure = String.valueOf(session.getAttribute("randomNum"));
+
+
+An error occurred at line: [46] in the jsp file: [/index.jsp]
+randomNum cannot be resolved to a variable
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);
+45:                     session.setAttribute("randomNum", randomNum);
+46:                     figure = String.valueOf(randomNum);
+47:                 } else if (index == 1) { // Other squares
+48:                     figure = String.valueOf(session.getAttribute("randomNum"));
+49:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 18:22:45.513 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:22:45.515 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:22:48.369 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:22:48.370 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:22:48.372 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+22-Mar-2023 18:22:53.469 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Type mismatch: cannot convert from int to String
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);}
+45:     %>
+46:     <div class="square <%=squareColor%>"><%=figure%></div>
+47:     <% 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Type mismatch: cannot convert from int to String
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (int) (Math.random() * 10);}
+45:     %>
+46:     <div class="square <%=squareColor%>"><%=figure%></div>
+47:     <% 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 18:23:45.798 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:23:45.798 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:23:48.732 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:23:48.736 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:23:48.738 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+22-Mar-2023 18:23:52.874 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Cannot invoke toString() on the primitive type double
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (Math.random() * 10).toString();}
+45:     %>
+46:     <div class="square <%=squareColor%>"><%=figure%></div>
+47:     <% 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/index.jsp]
+Cannot invoke toString() on the primitive type double
+41:                 String squareColor = (row + col) % 2 == 0 ? "white" : "black";
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     figures[1] = (Math.random() * 10).toString();}
+45:     %>
+46:     <div class="square <%=squareColor%>"><%=figure%></div>
+47:     <% 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 18:24:49.185 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:24:49.185 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:24:52.065 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:24:52.067 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:24:52.068 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 18:24:55.557 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Cannot invoke toString() on the primitive type int
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     int r = (int)(Math.random() * 10);
+45:                     figures[1] = r.toString();}
+46:     %>
+47:     <div class="square <%=squareColor%>"><%=figure%></div>
+48:     <% 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Cannot invoke toString() on the primitive type int
+42:                 String figure = figures[index++];
+43:                 if (row == 1 && col == 1) { // First square
+44:                     int r = (int)(Math.random() * 10);
+45:                     figures[1] = r.toString();}
+46:     %>
+47:     <div class="square <%=squareColor%>"><%=figure%></div>
+48:     <% 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Mar-2023 18:25:59.726 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:25:59.726 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:26:02.921 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:26:02.921 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:26:02.923 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 18:26:12.140 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:26:12.141 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:26:19.194 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:26:19.195 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:26:19.197 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4b3c354a')
+22-Mar-2023 18:26:42.071 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:26:42.072 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:26:44.704 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:26:44.705 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:26:44.709 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 18:26:58.170 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:26:58.171 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:27:00.939 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:27:00.941 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:27:00.942 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7fc44dec')
+22-Mar-2023 18:38:47.392 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:38:47.392 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:38:50.680 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:38:50.681 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:38:50.682 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@47dbb1e2')
+22-Mar-2023 18:39:06.629 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:39:06.629 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:39:10.463 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:39:10.465 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:39:10.467 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2692b61e')
+22-Mar-2023 18:41:35.645 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:41:35.646 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 18:41:39.443 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 18:41:39.444 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 18:41:39.446 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 18:47:54.705 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 18:47:54.711 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:37:42.323 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:37:42.324 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:37:42.330 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@366ef90e')
+22-Mar-2023 21:38:23.708 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 21:38:23.708 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:38:26.828 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:38:26.829 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:38:26.830 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+22-Mar-2023 21:44:46.301 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 21:44:46.302 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:44:49.527 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:44:49.527 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:44:49.530 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+22-Mar-2023 21:45:06.833 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 21:45:06.834 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:45:13.145 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:45:13.147 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:45:13.149 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+22-Mar-2023 21:47:52.498 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 21:47:52.499 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:47:55.727 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:47:55.727 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:47:55.731 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+22-Mar-2023 21:50:20.996 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+22-Mar-2023 21:50:20.997 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+22-Mar-2023 21:50:23.839 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+22-Mar-2023 21:50:23.840 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+22-Mar-2023 21:50:23.842 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')

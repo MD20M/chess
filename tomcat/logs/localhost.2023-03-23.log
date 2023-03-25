@@ -1,0 +1,2796 @@
+23-Mar-2023 14:43:19.424 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:43:19.425 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:43:19.427 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@78fb9a67')
+23-Mar-2023 14:45:45.508 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 14:45:45.509 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 14:45:48.975 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:45:48.977 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:45:48.978 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 14:48:08.123 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 14:48:08.123 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 14:48:11.354 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:48:11.355 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:48:11.357 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@b968a76')
+23-Mar-2023 14:49:06.349 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 14:49:06.349 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 14:49:09.273 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:49:09.275 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:49:09.276 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+23-Mar-2023 14:55:11.929 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 14:55:11.929 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 14:55:17.587 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:55:17.587 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:55:17.591 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2692b61e')
+23-Mar-2023 14:57:27.262 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 14:57:27.262 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 14:57:30.482 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 14:57:30.485 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 14:57:30.487 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@73ff4fae')
+23-Mar-2023 15:05:25.561 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:05:25.562 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:05:28.696 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:05:28.697 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:05:28.699 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@62fad19')
+23-Mar-2023 15:06:24.373 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:06:24.373 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:06:27.314 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:06:27.317 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:06:27.327 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 15:06:50.352 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:06:50.354 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:06:53.598 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:06:53.599 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:06:53.601 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+23-Mar-2023 15:25:55.254 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:25:55.254 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:25:58.633 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:25:58.634 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:25:58.637 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 15:26:38.469 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:26:38.470 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:26:45.244 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:26:45.246 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:26:45.248 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+23-Mar-2023 15:27:01.049 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:27:01.050 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:32:53.252 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:32:53.253 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:32:53.255 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 15:34:02.425 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:34:02.425 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:34:05.438 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:34:05.439 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:34:05.443 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 15:34:49.390 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [An exception occurred processing [/update.jsp] at line [3]
+
+1: <%
+2:     String character = request.getParameter("character");
+3:     int row = Integer.parseInt(request.getParameter("row"));
+4:     int col = Integer.parseInt(request.getParameter("col"));
+5:     int[][] chessBoard = (int[][]) session.getAttribute("chessBoard");
+6:     if (character != null && row >= 0 && row <= 7 && col >= 0 && col <= 7) {
+
+
+Stacktrace:] with root cause
+	java.lang.NumberFormatException: For input string: ""
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:678)
+		at java.base/java.lang.Integer.parseInt(Integer.java:786)
+		at org.apache.jsp.update_jsp._jspService(update_jsp.java:123)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 15:55:59.977 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 15:55:59.977 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 15:56:06.959 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 15:56:06.960 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 15:56:06.961 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@293d0107')
+23-Mar-2023 15:56:14.319 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+row cannot be resolved to a variable
+19: 					<% 
+20: 				       // Update the Java array based on user input values
+21: 				       String character = "\""+character+"\"";
+22: 				       out.print("chessBoard["+(row-1)+"]["+(col-1)+"] = "+character+";");
+23: 				    %>
+24: 					document.getElementById("cell" + row + col).innerHTML = character;
+25: 				}
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+col cannot be resolved to a variable
+19: 					<% 
+20: 				       // Update the Java array based on user input values
+21: 				       String character = "\""+character+"\"";
+22: 				       out.print("chessBoard["+(row-1)+"]["+(col-1)+"] = "+character+";");
+23: 				    %>
+24: 					document.getElementById("cell" + row + col).innerHTML = character;
+25: 				}
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+row cannot be resolved to a variable
+19: 					<% 
+20: 				       // Update the Java array based on user input values
+21: 				       String character = "\""+character+"\"";
+22: 				       out.print("chessBoard["+(row-1)+"]["+(col-1)+"] = "+character+";");
+23: 				    %>
+24: 					document.getElementById("cell" + row + col).innerHTML = character;
+25: 				}
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+col cannot be resolved to a variable
+19: 					<% 
+20: 				       // Update the Java array based on user input values
+21: 				       String character = "\""+character+"\"";
+22: 				       out.print("chessBoard["+(row-1)+"]["+(col-1)+"] = "+character+";");
+23: 				    %>
+24: 					document.getElementById("cell" + row + col).innerHTML = character;
+25: 				}
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 16:01:22.421 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 16:01:22.421 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 16:01:26.828 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 16:01:26.830 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 16:01:26.832 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@36676c1a')
+23-Mar-2023 16:01:38.517 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+The local variable character may not have been initialized
+20:       			 // Get the row value from JavaScript and assign it to a Java variable
+21:       			 int rowValue = Integer.parseInt(request.getParameter("row"));
+22: 				 int colValue = Integer.parseInt(request.getParameter("col"));
+23:       			 String character = "\""+character+"\"";
+24:       			 chessBoard[rowValue-1][colValue-1] = character;
+25:    			 %>
+26:     			document.getElementById("cell" + row + col).innerHTML = character;
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+The local variable character may not have been initialized
+20:       			 // Get the row value from JavaScript and assign it to a Java variable
+21:       			 int rowValue = Integer.parseInt(request.getParameter("row"));
+22: 				 int colValue = Integer.parseInt(request.getParameter("col"));
+23:       			 String character = "\""+character+"\"";
+24:       			 chessBoard[rowValue-1][colValue-1] = character;
+25:    			 %>
+26:     			document.getElementById("cell" + row + col).innerHTML = character;
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 16:07:56.897 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 16:07:56.898 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 16:07:59.667 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 16:07:59.668 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 16:07:59.670 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+23-Mar-2023 16:29:34.984 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 16:29:34.985 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 16:29:38.393 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 16:29:38.395 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 16:29:38.397 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5b408dc3')
+23-Mar-2023 16:32:09.412 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 16:32:09.412 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 16:32:12.332 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 16:32:12.332 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 16:32:12.334 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2e54db99')
+23-Mar-2023 17:10:16.737 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:10:16.739 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:10:16.741 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20b5f2ac')
+23-Mar-2023 17:10:28.125 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:10:28.125 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:10:30.938 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:10:30.939 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:10:30.940 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2dbf4cbd')
+23-Mar-2023 17:10:39.931 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:10:39.931 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:10:43.971 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:10:43.972 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:10:43.974 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+23-Mar-2023 17:11:04.344 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:11:04.344 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:11:07.119 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:11:07.120 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:11:07.122 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4d098f9b')
+23-Mar-2023 17:11:35.743 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:11:35.746 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:11:35.747 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2453f95d')
+23-Mar-2023 17:11:35.876 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:11:35.877 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:11:51.963 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:11:51.963 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:11:58.465 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:11:58.467 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:11:58.469 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@557a1e2d')
+23-Mar-2023 17:20:23.432 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:20:23.432 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:20:26.408 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:20:26.409 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:20:26.410 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2dbf4cbd')
+23-Mar-2023 17:20:31.476 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; ;
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 17:21:31.888 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:21:31.888 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:21:35.123 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:21:35.125 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:21:35.130 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3234f74e')
+23-Mar-2023 17:21:39.578 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } };
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 17:22:36.496 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:22:36.496 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:22:39.320 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:22:39.322 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:22:39.327 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@55e8ec2f')
+23-Mar-2023 17:22:44.241 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error on token "...", delete this token
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error on token "...", delete this token
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = {...};
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+23-Mar-2023 17:23:33.100 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2023 17:23:33.100 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2023 17:23:35.924 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2023 17:23:35.924 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2023 17:23:35.950 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2dbf4cbd')
+23-Mar-2023 17:23:41.533 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [3] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete MethodBody
+1: <%@page import="java.io.*" %>
+2: <%
+3:     String[][] t = { { "R", "K", "B", "Q", "K", "B", "K", "B" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]" }, { "P", "P", "P", "P", "P", "P", "P", "P" }, { "R", "K", "B", "Q", "K", "B", "K", "R" } }; 
+4:     
+5:     // Function to convert column letter to number
+6:     public static int cToNum(String letter) {
+
+
+An error occurred at line: [12] in the jsp file: [/index.jsp]
+out cannot be resolved
+9:     
+10:     // Function to print the board
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+
+
+An error occurred at line: [14] in the jsp file: [/index.jsp]
+out cannot be resolved
+11:     public static void board(String[][] t) {
+12:         out.print("<table>");
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+
+
+An error occurred at line: [16] in the jsp file: [/index.jsp]
+out cannot be resolved
+13:         for (int i = 7; i >= 0; i--) {
+14:             out.print("<tr><td>" + (i + 1) + "</td>");
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+
+
+An error occurred at line: [18] in the jsp file: [/index.jsp]
+out cannot be resolved
+15:             for (int j = 0; j < 8; j++) {
+16:                 out.print("<td>" + t[i][j] + "</td>");
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+
+
+An error occurred at line: [20] in the jsp file: [/index.jsp]
+out cannot be resolved
+17:             }
+18:             out.print("</tr>");
+19:         }
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+out cannot be resolved
+20:         out.print("<tr><td></td>");
+21:         for (int k = 0; k < 8; k++) {
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+
+
+An error occurred at line: [25] in the jsp file: [/index.jsp]
+out cannot be resolved
+22:             String[] l = {"A", "B", "C", "D", "E", "F", "G", "H"};
+23:             out.print("<td>" + l[k] + "</td>");
+24:         }
+25:         out.print("</tr></table>");
+26:     }
+27:     
+28:     // Function to check if the board has a king
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ".", @ expected after this token
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error on token ";", @ expected
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete MethodDeclaration
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [39] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete ClassBody
+36:         }
+37:         return false;
+38:     }
+39: %>
+40: <html>
+41: <head>
+42:     <title>Chess Game</title>
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Return type for the method is missing
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [45] in the jsp file: [/index.jsp]
+Syntax error on token ")", invalid VariableDeclaratorId
+42:     <title>Chess Game</title>
+43: </head>
+44: <body>
+45:     <% while (hasKing(t)) { %>
+46:         <h1>Current board:</h1>
+47:         <% board(t); %>
+48:         <form method="post">
+
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [198] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [212] in the generated java file: [/workspaces/chess/tomcat/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:513)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:676)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
