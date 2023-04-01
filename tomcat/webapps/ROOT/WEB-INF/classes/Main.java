@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.*;  
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
@@ -40,7 +41,40 @@ public class Main extends HttpServlet {
         return 7;
       }
       return 0;
-}
+    }
+    public static List<String> legalMove(String piece, int i, String jl, String[][] t){
+      List<String> legalMovesList = new ArrayList<String>();
+      int j = cToNum(jl);
+      if (piece=="♙"){
+        if (i-1 <= t.length && t[i-1][j].equals(" ")){
+          legalMovesList.add(jl+""+i);
+        }
+        if (i==6 && t[i-2][j].equals(" ")){
+          legalMovesList.add(jl+""+(i-1));
+        }
+        if (j-1 >= 0 && i-1 <= t.length && t[i-1][j-1]!=" "){
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+i);
+        }
+        if (j+1 <= t.length && i-1 <= t.length && t[i-1][j+1]!=" "){
+          legalMovesList.add((char)(jl.charAt(0)+1)+""+i);
+        }
+      }
+      if (piece=="♟"){
+        if (i+1 <= t.length && t[i+1][j].equals(" ")){
+          legalMovesList.add(jl+""+(i+2));
+        }
+        if (i==1 && t[i+2][j].equals(" ")){
+          legalMovesList.add(jl+""+(i+3));
+        }
+        if (j-1 >= 0 && i+1 <= t.length && t[i+1][j-1]!=" "){
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+2));
+        }
+        if (j+1 <= t.length && i+1 <= t.length && t[i+1][j+1]!=" "){
+          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i+2));
+        }
+      }
+      return legalMovesList;
+    }
 
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     response.setContentType("text/html");
@@ -83,10 +117,25 @@ public class Main extends HttpServlet {
         String oldValue = array[i][j];
         array[i][j] = newValue;
 
+
+        out.print((char)((location[0].charAt(0))-1) + "JL");
+        List<String> legalM = legalMove(oldValue, i, location[0], array);
+        out.print(i + "IIIIII");
+        out.println(legalM.size() + "SIZE!!!!");
+        for (String lm:legalM){
+          out.println(lm + " FROM");
+          out.println(To + " TO");
+          if (lm.equals(To)){
+            out.println("IT IS LEGAL!!!!!!");
+          }
+        }
+
         location = To.split("");
         i = Integer.parseInt(location[1])-1;
         j = cToNum(location[0]);
         array[i][j] = oldValue;
+
+        
 
        out.println("<br>");
        out.println("Value at index " + i + " has been updated to " + newValue);
