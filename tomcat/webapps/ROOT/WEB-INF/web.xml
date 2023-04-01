@@ -26,14 +26,25 @@
   <description>
      Welcome to Tomcat
   </description>
+
 <servlet>  
-<servlet-name>Test</servlet-name>  
+<servlet-name>Chess</servlet-name>  
 <servlet-class>Main</servlet-class>  
 </servlet>  
   
 <servlet-mapping>  
-<servlet-name>Test</servlet-name>  
-<url-pattern>/welcome</url-pattern>  
-</servlet-mapping>  
+<servlet-name>Chess</servlet-name>  
+<url-pattern>/chess</url-pattern>  
+</servlet-mapping> 
+
+<servlet>  
+<servlet-name>Stest</servlet-name>  
+<servlet-class>stest</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>Stest</servlet-name>  
+<url-pattern>/sock</url-pattern>  
+</servlet-mapping>
 
 </web-app>

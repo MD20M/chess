@@ -1,7 +1,36 @@
+body {
+  background-color: white;
+  transition: background-color 1s ease;
+}
+
+.controllMenu{
+  background-color: lightgray;
+  float:right;
+  position: relative;
+  width: 10%;
+  border: 1px solid;
+  box-sizing: border-box;
+  margin-top: -550px;
+  margin-right: 200px;
+  margin-left: 300px;
+}
+
+.cm{
+  margin-top: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.board{
+  width:50%;
+}
+
 table{
   border-collapse: collapse;
   border: black 1px;
   margin: 0 auto;
+  box-sizing: border-box;
+  border-spacing: 0;
 }
 
 
@@ -21,7 +50,7 @@ td{
 }
 
 td:hover {
-  background-color: blanchedalmond;
+  background-color: lightcoral;
 }
 
 tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
@@ -32,21 +61,31 @@ tr:nth-child(odd) td:nth-child(even):hover, tr:nth-child(even) td:nth-child(odd)
   background: blanchedalmond;
 }
 
-input {
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+label {
+  display: inline-block;
+  width: 60px;
+  margin-top: 5px;
+  align-items: center;
+  margin-left: 10px;
 }
 
-.zraven{
-    display: inline-block;
-    width: 60px;
-    margin-top: 5px;
-    text-align: center;
+input[type="text"] {
+  display: inline-block;
+  width: 30px;
 }
 
-label{
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+input[type="submit"] {
+  margin-left: 40%;
+  margin-top: 5px;
 }
+
+textarea{
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+
+
+
+
