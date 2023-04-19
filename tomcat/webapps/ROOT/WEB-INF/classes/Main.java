@@ -355,7 +355,7 @@ public class Main extends HttpServlet {
           legalMovesList.add((char)(jl.charAt(0)-2)+""+(i+1));
         }
         if (i-1 >= 0 && j+2 < t.length && (t[i-1][j+2].equals(" ") || t[i-1][j+2].equals("♜") || t[i-1][j+2].equals("♞") || t[i-1][j+2].equals("♝") || t[i-1][j+2].equals("♛") || t[i-1][j+2].equals("♚") || t[i-1][j+2].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i-1));
+          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+1));
         }
         if (i-1 >= 0 && j-2 >= 0 && (t[i-1][j-2].equals(" ") || t[i-1][j-2].equals("♜") || t[i-1][j-2].equals("♞") || t[i-1][j-2].equals("♝") || t[i-1][j-2].equals("♛") || t[i-1][j-2].equals("♚") || t[i-1][j-2].equals("♟"))){
           legalMovesList.add((char)(jl.charAt(0)-2)+""+(i-1));
@@ -375,10 +375,10 @@ public class Main extends HttpServlet {
           legalMovesList.add((char)(jl.charAt(0)-1)+""+(i));
         }
         if (i+1 < t.length && j+2 < t.length && (t[i+1][j+2].equals(" ") || t[i+1][j+2].equals("♖") || t[i+1][j+2].equals("♘") || t[i+1][j+2].equals("♗") || t[i+1][j+2].equals("♕") || t[i+1][j+2].equals("♔") || t[i+1][j+2].equals("♙"))){
-          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+2));
+          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+1));
         }
         if (i+1 < t.length && j-2 >= 0 && (t[i+1][j-2].equals(" ") || t[i+1][j-2].equals("♖") || t[i+1][j-2].equals("♘") || t[i+1][j-2].equals("♗") || t[i+1][j-2].equals("♕") || t[i+1][j-2].equals("♔") || t[i+1][j-2].equals("♙"))){
-          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i+2));
+          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i+1));
         }
         if (i-1 >= 0 && j+2 < t.length && (t[i-1][j+2].equals(" ") || t[i-1][j+2].equals("♖") || t[i-1][j+2].equals("♘") || t[i-1][j+2].equals("♗") || t[i-1][j+2].equals("♕") || t[i-1][j+2].equals("♔") || t[i-1][j+2].equals("♙"))){
           legalMovesList.add((char)(jl.charAt(0)+2)+""+(i-1));
