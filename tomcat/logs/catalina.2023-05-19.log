@@ -1,0 +1,530 @@
+19-May-2023 13:47:56.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 13:47:56.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 13:47:56.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 13:47:56.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 13:47:56.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 13:47:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 13:47:57.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 13:47:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 13:47:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 13:47:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 13:47:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 13:47:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 13:47:57.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 13:47:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 13:47:57.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 13:47:57.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 13:47:57.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 13:47:57.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 13:47:57.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 13:47:57.067 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 13:47:57.930 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 13:47:57.993 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1816] milliseconds
+19-May-2023 13:47:58.071 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 13:47:58.073 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 13:47:58.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 13:47:58.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [652] ms
+19-May-2023 13:47:58.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 13:47:59.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [445] ms
+19-May-2023 13:47:59.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 13:47:59.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [42] ms
+19-May-2023 13:47:59.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 13:47:59.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [17] ms
+19-May-2023 13:47:59.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 13:47:59.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [21] ms
+19-May-2023 13:47:59.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 13:47:59.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [20] ms
+19-May-2023 13:47:59.308 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 13:47:59.329 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1335] milliseconds
+19-May-2023 14:42:40.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:42:40.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:42:40.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:42:40.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:42:40.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:42:40.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:42:40.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:42:40.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:42:40.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:42:40.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:42:40.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:42:40.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:42:40.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:42:40.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:42:40.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:42:40.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:42:40.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:42:40.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:42:40.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:42:40.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:42:40.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:42:40.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:42:40.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:42:40.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:42:40.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:42:41.437 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:42:41.506 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1055] milliseconds
+19-May-2023 14:42:41.565 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:42:41.566 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:42:41.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:42:42.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [576] ms
+19-May-2023 14:42:42.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:42:42.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [407] ms
+19-May-2023 14:42:42.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:42:42.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [53] ms
+19-May-2023 14:42:42.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:42:42.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [33] ms
+19-May-2023 14:42:42.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:42:42.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [58] ms
+19-May-2023 14:42:42.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:42:42.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [91] ms
+19-May-2023 14:42:42.823 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:42:42.841 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1334] milliseconds
+19-May-2023 14:45:15.867 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 14:45:15.869 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:45:15.872 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:45:15.929 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:45:15.937 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:45:22.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:45:22.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:45:22.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:45:22.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:45:22.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:45:22.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:45:22.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:45:22.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:45:22.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:45:22.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:45:22.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:45:22.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:45:22.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:45:22.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:45:22.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:45:22.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:45:22.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:45:22.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:45:22.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:45:22.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:45:22.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:45:22.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:45:22.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:45:22.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:45:22.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:45:22.658 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:45:22.743 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [826] milliseconds
+19-May-2023 14:45:22.806 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:45:22.807 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:45:22.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:45:23.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [448] ms
+19-May-2023 14:45:23.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:45:23.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [423] ms
+19-May-2023 14:45:23.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:45:23.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [38] ms
+19-May-2023 14:45:23.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:45:23.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [25] ms
+19-May-2023 14:45:23.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:45:23.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [32] ms
+19-May-2023 14:45:23.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:45:23.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [24] ms
+19-May-2023 14:45:23.834 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:45:23.862 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1114] milliseconds
+19-May-2023 14:46:01.737 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 14:46:01.738 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:46:01.746 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:46:01.807 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:46:01.820 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:46:16.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:46:16.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:46:16.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:46:16.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:46:16.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:46:16.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:46:16.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:46:16.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:46:16.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:46:16.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:46:16.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:46:16.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:46:16.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:46:16.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:46:16.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:46:16.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:46:16.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:46:16.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:46:16.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:46:16.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:46:16.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:46:16.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:46:16.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:46:16.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:46:16.832 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:46:17.250 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:46:17.325 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [755] milliseconds
+19-May-2023 14:46:17.390 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:46:17.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:46:17.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:46:17.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [428] ms
+19-May-2023 14:46:17.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:46:18.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [502] ms
+19-May-2023 14:46:18.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:46:18.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [46] ms
+19-May-2023 14:46:18.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:46:18.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [35] ms
+19-May-2023 14:46:18.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:46:18.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [44] ms
+19-May-2023 14:46:18.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:46:18.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [24] ms
+19-May-2023 14:46:18.490 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:46:18.507 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1180] milliseconds
+19-May-2023 14:53:58.218 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 14:53:58.219 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:53:58.222 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:53:58.247 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:53:58.260 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:54:04.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:54:04.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:54:04.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:54:04.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:54:04.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:54:04.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:54:04.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:54:04.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:54:04.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:54:04.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:54:04.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:54:04.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:54:04.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:54:04.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:54:04.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:54:04.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:54:04.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:54:04.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:54:04.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:54:04.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:54:04.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:54:04.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:54:04.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:54:04.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:54:04.581 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:54:04.980 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:54:05.004 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [699] milliseconds
+19-May-2023 14:54:05.047 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:54:05.048 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:54:05.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:54:05.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [527] ms
+19-May-2023 14:54:05.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:54:05.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [374] ms
+19-May-2023 14:54:05.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:54:06.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [91] ms
+19-May-2023 14:54:06.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:54:06.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [20] ms
+19-May-2023 14:54:06.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:54:06.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [27] ms
+19-May-2023 14:54:06.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:54:06.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [24] ms
+19-May-2023 14:54:06.136 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:54:06.156 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1151] milliseconds
+19-May-2023 14:56:27.412 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 14:56:27.417 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:56:27.421 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:56:27.453 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:56:27.465 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:57:04.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:57:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:57:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:57:04.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:57:04.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:57:04.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:57:04.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:57:04.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:57:04.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:57:04.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:57:04.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:57:04.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:57:04.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:57:04.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:57:04.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:57:04.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:57:04.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:57:04.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:57:04.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:57:04.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:57:04.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:57:04.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:57:05.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:57:05.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:57:05.003 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:57:05.366 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:57:05.434 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [725] milliseconds
+19-May-2023 14:57:05.524 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:57:05.525 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:57:05.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:57:06.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [574] ms
+19-May-2023 14:57:06.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:57:06.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [399] ms
+19-May-2023 14:57:06.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:57:06.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [58] ms
+19-May-2023 14:57:06.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:57:06.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [23] ms
+19-May-2023 14:57:06.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:57:06.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [23] ms
+19-May-2023 14:57:06.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:57:06.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [25] ms
+19-May-2023 14:57:06.658 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:57:06.677 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1241] milliseconds
+19-May-2023 14:59:42.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:59:42.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:59:42.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:59:42.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:59:42.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:59:42.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:59:42.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:59:42.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:59:42.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:59:42.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:59:42.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:59:42.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:59:42.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:59:42.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:59:42.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:59:42.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:59:42.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:59:42.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:59:42.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:59:42.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:59:42.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:59:42.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:59:42.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:59:42.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:59:42.514 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:59:42.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:43.021 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1018)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1003)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1256)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1269)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:622)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		... 13 more
+19-May-2023 14:59:43.024 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [817] milliseconds
+19-May-2023 14:59:43.094 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:59:43.095 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:59:43.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:59:43.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [580] ms
+19-May-2023 14:59:43.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:59:44.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [788] ms
+19-May-2023 14:59:44.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:59:44.510 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 14:59:44.510 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:44.516 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:59:44.574 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:44.584 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:44.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [147] ms
+19-May-2023 14:59:44.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:59:44.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [36] ms
+19-May-2023 14:59:44.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:59:44.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [31] ms
+19-May-2023 14:59:44.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:59:44.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [24] ms
+19-May-2023 14:59:44.719 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1693] milliseconds
+19-May-2023 14:59:49.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 14:59:49.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 14:59:49.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 14:59:49.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 14:59:49.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 14:59:49.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 14:59:49.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 14:59:49.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 14:59:49.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 14:59:49.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 14:59:49.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 14:59:49.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 14:59:49.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 14:59:49.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 14:59:49.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 14:59:49.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 14:59:49.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 14:59:49.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 14:59:49.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 14:59:49.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 14:59:49.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 14:59:49.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 14:59:49.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 14:59:49.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 14:59:49.316 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 14:59:49.783 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:49.830 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [951] milliseconds
+19-May-2023 14:59:49.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 14:59:49.899 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 14:59:49.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 14:59:50.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [520] ms
+19-May-2023 14:59:50.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 14:59:50.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [546] ms
+19-May-2023 14:59:50.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 14:59:51.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [57] ms
+19-May-2023 14:59:51.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 14:59:51.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [31] ms
+19-May-2023 14:59:51.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 14:59:51.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [42] ms
+19-May-2023 14:59:51.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 14:59:51.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [35] ms
+19-May-2023 14:59:51.164 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:51.184 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1353] milliseconds
+19-May-2023 14:59:51.187 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+19-May-2023 14:59:51.189 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:51.192 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 14:59:51.222 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 14:59:51.232 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:02.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 15:00:02.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 15:00:02.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 15:00:02.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 15:00:02.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 15:00:02.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 15:00:02.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 15:00:02.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 15:00:02.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 15:00:02.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 15:00:02.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 15:00:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 15:00:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 15:00:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 15:00:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 15:00:02.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 15:00:02.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 15:00:02.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 15:00:02.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 15:00:02.730 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:02.788 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [777] milliseconds
+19-May-2023 15:00:02.850 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 15:00:02.851 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 15:00:02.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 15:00:03.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [374] ms
+19-May-2023 15:00:03.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 15:00:03.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [369] ms
+19-May-2023 15:00:03.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 15:00:03.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [55] ms
+19-May-2023 15:00:03.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 15:00:03.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [42] ms
+19-May-2023 15:00:03.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 15:00:03.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [27] ms
+19-May-2023 15:00:03.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 15:00:03.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [26] ms
+19-May-2023 15:00:03.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:03.790 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [999] milliseconds
+19-May-2023 15:00:03.801 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:576)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+19-May-2023 15:00:03.810 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:03.817 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 15:00:03.886 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:03.920 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:18.929 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-May-2023 15:00:18.931 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:18.935 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-May-2023 15:00:18.968 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:00:18.972 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:01:54.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+19-May-2023 15:01:54.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+19-May-2023 15:01:54.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+19-May-2023 15:01:54.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-May-2023 15:01:54.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-1106-azure
+19-May-2023 15:01:54.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-May-2023 15:01:54.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/17.0.6-ms
+19-May-2023 15:01:54.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+10-LTS
+19-May-2023 15:01:54.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+19-May-2023 15:01:54.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/chess/tomcat
+19-May-2023 15:01:54.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/chess/tomcat
+19-May-2023 15:01:54.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/chess/tomcat/conf/logging.properties
+19-May-2023 15:01:54.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 15:01:54.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 15:01:54.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 15:01:54.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 15:01:54.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-May-2023 15:01:54.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-May-2023 15:01:54.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-May-2023 15:01:54.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-May-2023 15:01:54.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-May-2023 15:01:54.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/chess/tomcat
+19-May-2023 15:01:54.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/chess/tomcat
+19-May-2023 15:01:54.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/chess/tomcat/temp
+19-May-2023 15:01:54.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+19-May-2023 15:01:54.831 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:01:54.860 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [811] milliseconds
+19-May-2023 15:01:54.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-May-2023 15:01:54.899 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+19-May-2023 15:01:54.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/app]
+19-May-2023 15:01:55.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/app] has finished in [399] ms
+19-May-2023 15:01:55.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/examples]
+19-May-2023 15:01:55.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/examples] has finished in [266] ms
+19-May-2023 15:01:55.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/host-manager]
+19-May-2023 15:01:55.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/host-manager] has finished in [25] ms
+19-May-2023 15:01:55.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/docs]
+19-May-2023 15:01:55.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/docs] has finished in [19] ms
+19-May-2023 15:01:55.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/ROOT]
+19-May-2023 15:01:55.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/ROOT] has finished in [24] ms
+19-May-2023 15:01:55.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/chess/tomcat/webapps/manager]
+19-May-2023 15:01:55.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/chess/tomcat/webapps/manager] has finished in [21] ms
+19-May-2023 15:01:55.667 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-May-2023 15:01:55.690 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [829] milliseconds

@@ -1,10 +1,18 @@
+//Namen tega programa je možnost igranja šaha s njo.
+//Program ne zahteva posebne strojne opreme saj ne porablja veliko računalniških virov. Deluje na vseh operacijskih sistemih je pa zanje treba naložiti pravilno različico Tomcat omrežnega vmesnika.
+//Uporabnik uporablja program s vpisom premikov šahovskih figur v mesta kamor jih želi premakniti. Program preveri ali je premik legalen in če je premakne figuro. Če premik ni legalen uporabniku javi napako in ga prosi za ponovni vnos.
+//Uporabljeni moduli so java.io.*, java.util.*, jakarta.servlet.* in jakarta.servlet.http.*
+//Program potrebuje približno pol sekunde ćasa za izvedbo vsakega premika.
+//Razvoj programa se je začel brez omrežnega vmesnika Tomcat s izpisom figur v konzoli. Ko je bila konzola zamenjana z omrežnim vmesnikom Tomcat je bilo potrebno spremeniti način izpisa figur in vpis njihovih premikov. Dodani so bili tudi pravilni premiki.
+
 import java.io.*;
 import java.util.*;  
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
 public class Main extends HttpServlet {
-  private String[][] array = {
+  //šahovnica predstavljena s dvodimenzionalnim poljem
+  public String[][] array = {
     {"♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜"},
     {"♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟"},
     {" ", " ", " ", " ", " ", " ", " ", " "},
@@ -15,7 +23,7 @@ public class Main extends HttpServlet {
     {"♖", "♘", "♗", "♕", "♔", "♗", "♘", "♖"}
 };
 
-    public static int cToNum(String cPos) {
+    public static int cToNum(String cPos) { //Metoda pretvori koordinato y bele figure predstavljeno s črko v število
       if (cPos.equals("A")) {
        return 0;
      }
@@ -43,7 +51,7 @@ public class Main extends HttpServlet {
       return 0;
     }
 
-    public static int cToNumB(String cPos) {
+    public static int cToNumB(String cPos) { //Metoda pretvori koordinato y bele figure predstavljeno s črko v število
       if (cPos.equals("A")) {
        return 7;
      }
@@ -71,7 +79,7 @@ public class Main extends HttpServlet {
       return 0;
     }
     
-    public static List<String> legalMove(String piece, int i, String jl, String[][] t, int turn){
+    public static List<String> legalMove(String piece, int i, String jl, String[][] t, int turn){ //Metoda preveri ali je premik figure legalen
       List<String> legalMovesList = new ArrayList<String>();
       int j = 0;
       if (turn%2==0){
@@ -81,21 +89,21 @@ public class Main extends HttpServlet {
         j = cToNumB(jl);
       }
       
-      if (piece=="♙"){
+      if (piece=="♙"){ //Legalni premiki za belega kmeta
         if (i-1 <= t.length && t[i-1][j].equals(" ")){
-          legalMovesList.add(jl+""+i);
+          legalMovesList.add(jl+""+(i));
         }
         if (i==6 && t[i-2][j].equals(" ")){
-          legalMovesList.add(jl+""+(i-1));
+          legalMovesList.add(jl+""+(i));
         }
         if (j-1 >= 0 && i-1 <= t.length && t[i-1][j-1]!=" "){
-          legalMovesList.add((char)(jl.charAt(0)-1)+""+i);
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i));
         }
         if (j+1 <= t.length && i-1 <= t.length && t[i-1][j+1]!=" "){
-          legalMovesList.add((char)(jl.charAt(0)+1)+""+i);
+          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i));
         }
       }
-      if (piece=="♟"){
+      if (piece=="♟"){ //Legalni premiki za črnega kmeta
         if (i+1 <= t.length && t[i+1][j].equals(" ")){
           legalMovesList.add(jl+""+(i+2));
         }
@@ -103,244 +111,245 @@ public class Main extends HttpServlet {
           legalMovesList.add(jl+""+(i+3));
         }
         if (j-1 >= 0 && i+1 <= t.length && t[i+1][j-1]!=" "){
-          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+2));
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+1));
         }
         if (j+1 <= t.length && i+1 <= t.length && t[i+1][j+1]!=" "){
-          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i+2));
-        }
-      }
-      if (piece=="♜"){
-        for (int k = i+1; k < t.length; k++){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♙") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♔") || t[k][j].equals("♖")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1; k >= 0; k--){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♙") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♔") || t[k][j].equals("♖")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = j+1; k < t.length; k++){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          else if (t[i][k].equals("♙") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♔") || t[i][k].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-        for (int k = j-1; k >= 0; k--){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          else if (t[i][k].equals("♙") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♔") || t[i][k].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-      }
-      if (piece=="♖"){
-        for (int k = i+1; k < t.length; k++){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1; k >= 0; k--){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = j+1; k < t.length; k++){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-        for (int k = j-1; k >= 0; k--){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-      }
-      if (piece=="♝"){
-        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-      }
-      if (piece=="♗"){
-        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-      }
-      if (piece=="♕"){
-        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
-          if (t[k][l].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-          }
-          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i+1; k < t.length; k++){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = i-1; k >= 0; k--){
-          if (t[k][j].equals(" ")){
-            legalMovesList.add(jl+""+(k+1));
-          }
-          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add(jl+""+(k+1));
-            break;
-          }
-        }
-        for (int k = j+1; k < t.length; k++){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-        for (int k = j-1; k >= 0; k--){
-          if (t[i][k].equals(" ")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-          }
-          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
-            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
-            break;
-          }
-        }
-      }
-      if (piece=="♘"){
-        if (i+2 < t.length && j+1 < t.length && (t[i+2][j+1].equals(" ") || t[i+2][j+1].equals("♜") || t[i+2][j+1].equals("♞") || t[i+2][j+1].equals("♝") || t[i+2][j+1].equals("♛") || t[i+2][j+1].equals("♚") || t[i+2][j+1].equals("♟"))){
           legalMovesList.add((char)(jl.charAt(0)+1)+""+(i+1));
         }
+      }
+      if (piece=="♜"){ //Legalni premiki za črno trdnjavo
+        for (int k = i; k < t.length; k++){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♙") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♔") || t[k][j].equals("♖")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1; k >= 0; k--){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♙") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♔") || t[k][j].equals("♖")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = j+1; k < t.length; k++){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          else if (t[i][k].equals("♙") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♔") || t[i][k].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+        for (int k = j-1; k >= 0; k--){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          else if (t[i][k].equals("♙") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♔") || t[i][k].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+      }
+      if (piece=="♖"){ //Legalni premiki za belo trdnjavo
+        for (int k = i; k < t.length; k++){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1; k >= 0; k--){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = j+1; k < t.length; k++){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+        for (int k = j-1; k >= 0; k--){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+      }
+      if (piece=="♝"){ //Legalni premiki za črnega tekača
+        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♙") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♔") || t[k][l].equals("♖")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+      }
+      if (piece=="♗"){ //Legalni premiki za belega tekača
+        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+      }
+      if (piece=="♕"){ //Legalni premiki za belo kraljico
+        for (int k = i+1, l = j+1; k < t.length && l < t.length; k++, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j-1; k >= 0 && l >= 0; k--, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i+1, l = j-1; k < t.length && l >= 0; k++, l--){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1, l = j+1; k >= 0 && l < t.length; k--, l++){
+          if (t[k][l].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+          }
+          else if (t[k][l].equals("♜") || t[k][l].equals("♞") || t[k][l].equals("♝") || t[k][l].equals("♛") || t[k][l].equals("♚") || t[k][l].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+l-j)+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i+1; k < t.length; k++){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = i-1; k >= 0; k--){
+          if (t[k][j].equals(" ")){
+            legalMovesList.add(jl+""+(k+1));
+          }
+          else if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add(jl+""+(k+1));
+            break;
+          }
+        }
+        for (int k = j+1; k < t.length; k++){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+        for (int k = j-1; k >= 0; k--){
+          if (t[i][k].equals(" ")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+          }
+          if (t[k][j].equals("♜") || t[k][j].equals("♞") || t[k][j].equals("♝") || t[k][j].equals("♛") || t[k][j].equals("♚") || t[k][j].equals("♟")){
+            legalMovesList.add((char)(jl.charAt(0)+k-j)+""+(i+1));
+            break;
+          }
+        }
+      }
+
+      if (piece=="♘"){ //Legalni premiki za belega konja
+        if (i+2 < t.length && j+1 < t.length && (t[i+2][j+1].equals(" ") || t[i+2][j+1].equals("♜") || t[i+2][j+1].equals("♞") || t[i+2][j+1].equals("♝") || t[i+2][j+1].equals("♛") || t[i+2][j+1].equals("♚") || t[i+2][j+1].equals("♟"))){
+          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i+2));
+        }
         if (i+2 < t.length && j-1 >= 0 && (t[i+2][j-1].equals(" ") || t[i+2][j-1].equals("♜") || t[i+2][j-1].equals("♞") || t[i+2][j-1].equals("♝") || t[i+2][j-1].equals("♛") || t[i+2][j-1].equals("♚") || t[i+2][j-1].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+1));
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+2));
         }
         if (i-2 >= 0 && j+1 < t.length && (t[i-2][j+1].equals(" ") || t[i-2][j+1].equals("♜") || t[i-2][j+1].equals("♞") || t[i-2][j+1].equals("♝") || t[i-2][j+1].equals("♛") || t[i-2][j+1].equals("♚") || t[i-2][j+1].equals("♟"))){
           legalMovesList.add((char)(jl.charAt(0)+1)+""+(i-1));
@@ -349,19 +358,19 @@ public class Main extends HttpServlet {
           legalMovesList.add((char)(jl.charAt(0)-1)+""+(i-1));
         }
         if (i+1 < t.length && j+2 < t.length && (t[i+1][j+2].equals(" ") || t[i+1][j+2].equals("♜") || t[i+1][j+2].equals("♞") || t[i+1][j+2].equals("♝") || t[i+1][j+2].equals("♛") || t[i+1][j+2].equals("♚") || t[i+1][j+2].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+1));
+          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i));
         }
         if (i+1 < t.length && j-2 >= 0 && (t[i+1][j-2].equals(" ") || t[i+1][j-2].equals("♜") || t[i+1][j-2].equals("♞") || t[i+1][j-2].equals("♝") || t[i+1][j-2].equals("♛") || t[i+1][j-2].equals("♚") || t[i+1][j-2].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i+1));
+          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i));
         }
         if (i-1 >= 0 && j+2 < t.length && (t[i-1][j+2].equals(" ") || t[i-1][j+2].equals("♜") || t[i-1][j+2].equals("♞") || t[i-1][j+2].equals("♝") || t[i-1][j+2].equals("♛") || t[i-1][j+2].equals("♚") || t[i-1][j+2].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+1));
+          legalMovesList.add((char)(jl.charAt(0)+2)+""+(i));
         }
         if (i-1 >= 0 && j-2 >= 0 && (t[i-1][j-2].equals(" ") || t[i-1][j-2].equals("♜") || t[i-1][j-2].equals("♞") || t[i-1][j-2].equals("♝") || t[i-1][j-2].equals("♛") || t[i-1][j-2].equals("♚") || t[i-1][j-2].equals("♟"))){
-          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i-1));
+          legalMovesList.add((char)(jl.charAt(0)-2)+""+(i));
         }
       }
-      if (piece=="♞"){
+      if (piece=="♞"){ //Legalni premiki za črnega konja
         if (i+2 < t.length && j+1 < t.length && (t[i+2][j+1].equals(" ") || t[i+2][j+1].equals("♖") || t[i+2][j+1].equals("♘") || t[i+2][j+1].equals("♗") || t[i+2][j+1].equals("♕") || t[i+2][j+1].equals("♔") || t[i+2][j+1].equals("♙"))){
           legalMovesList.add((char)(jl.charAt(0)+1)+""+(i+3));
         }
@@ -369,10 +378,10 @@ public class Main extends HttpServlet {
           legalMovesList.add((char)(jl.charAt(0)-1)+""+(i+3));
         }
         if (i-2 >= 0 && j+1 < t.length && (t[i-2][j+1].equals(" ") || t[i-2][j+1].equals("♖") || t[i-2][j+1].equals("♘") || t[i-2][j+1].equals("♗") || t[i-2][j+1].equals("♕") || t[i-2][j+1].equals("♔") || t[i-2][j+1].equals("♙"))){
-          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i));
+          legalMovesList.add((char)(jl.charAt(0)+1)+""+(i-2));
         }
         if (i-2 >= 0 && j-1 >= 0 && (t[i-2][j-1].equals(" ") || t[i-2][j-1].equals("♖") || t[i-2][j-1].equals("♘") || t[i-2][j-1].equals("♗") || t[i-2][j-1].equals("♕") || t[i-2][j-1].equals("♔") || t[i-2][j-1].equals("♙"))){
-          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i));
+          legalMovesList.add((char)(jl.charAt(0)-1)+""+(i-2));
         }
         if (i+1 < t.length && j+2 < t.length && (t[i+1][j+2].equals(" ") || t[i+1][j+2].equals("♖") || t[i+1][j+2].equals("♘") || t[i+1][j+2].equals("♗") || t[i+1][j+2].equals("♕") || t[i+1][j+2].equals("♔") || t[i+1][j+2].equals("♙"))){
           legalMovesList.add((char)(jl.charAt(0)+2)+""+(i+1));
@@ -392,35 +401,115 @@ public class Main extends HttpServlet {
       return legalMovesList;
     }
 
+    public static boolean checkForCheckW(int i, int j, String[][] t, int turn){ //Metoda preveri če je kraljev premik šah
+
+      if (t[i-1][j-1].equals("♟") || t[i-1][j+1].equals("♟")){
+        return true;
+      }
+      else if (t[i][j].equals(" ") || t[i][j].equals("♜") || t[i][j].equals("♞") || t[i][j].equals("♝") || t[i][j].equals("♛") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+        for(int k = i; i<t.length; k++){
+          if (t[k][j].equals("♜") || t[k][j].equals("♛")){
+            return true;
+          }
+          if (t[k][j].equals("♖") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♙") || t[k][j].equals("♞") || t[i][j].equals("♝") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = i; k>=0; k--){
+          if (t[k][j].equals("♜") || t[k][j].equals("♛")){
+            return true;
+          }
+          if (t[k][j].equals("♖") || t[k][j].equals("♘") || t[k][j].equals("♗") || t[k][j].equals("♕") || t[k][j].equals("♙") || t[k][j].equals("♞") || t[i][j].equals("♝") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = j; k<t.length; k++){
+          if (t[i][k].equals("♜") || t[i][k].equals("♛")){
+            return true;
+          }
+          if (t[i][k].equals("♖") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♙") || t[i][k].equals("♞") || t[i][j].equals("♝") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = j; k>=0; k--){
+          if (t[i][k].equals("♜") || t[i][k].equals("♛")){
+            return true;
+          }
+          if (t[i][k].equals(t[i][k].equals("♖") || t[i][k].equals("♘") || t[i][k].equals("♗") || t[i][k].equals("♕") || t[i][k].equals("♙") || t[i][k].equals("♞") || t[i][j].equals("♝") || t[i][j].equals("♚") || t[i][j].equals("♟"))){
+            break;
+          }
+        }
+        for (int k = i, l = j; k<t.length && l<t.length; k++, l++){
+          if (t[k][l].equals("♝") || t[k][l].equals("♛")){
+            return true;
+          }
+          if (t[k][l].equals("♖") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♙") || t[k][l].equals("♞") || t[i][j].equals("♜") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = i, l = j; k>=0 && l>=0; k--, l--){
+          if (t[k][l].equals("♝") || t[k][l].equals("♛")){
+            return true;
+          }
+          if (t[k][l].equals("♖") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♙") || t[k][l].equals("♞") || t[i][j].equals("♜") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = i, l = j; k<t.length && l>=0; k++, l--){
+          if (t[k][l].equals("♝") || t[k][l].equals("♛")){
+            return true;
+          }
+          if (t[k][l].equals("♖") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♙") || t[k][l].equals("♞") || t[i][j].equals("♜") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+        for (int k = i, l = j; k>=0 && l<t.length; k--, l++){
+          if (t[k][l].equals("♝") || t[k][l].equals("♛")){
+            return true;
+          }
+          if (t[k][l].equals("♖") || t[k][l].equals("♘") || t[k][l].equals("♗") || t[k][l].equals("♕") || t[k][l].equals("♙") || t[k][l].equals("♞") || t[i][j].equals("♜") || t[i][j].equals("♚") || t[i][j].equals("♟")){
+            break;
+          }
+        }
+      }
+      else if ((i+2<t.length && j+1<t.length && t[i+2][j+1].equals("♞")) || (i+2<t.length && j-1<t.length && t[i+2][j+1].equals("♞")) || (i-2<t.length && j+1<t.length && t[i+2][j+1].equals("♞")) || (i-2<t.length && j-1<t.length && t[i+2][j+1].equals("♞")) || (i+1<t.length && j+2<t.length && t[i+2][j+1].equals("♞")) || (i+1<t.length && j-2<t.length && t[i+2][j+1].equals("♞")) || (i-1<t.length && j+2<t.length && t[i+2][j+1].equals("♞")) || (i-1<t.length && j-2<t.length && t[i+2][j+1].equals("♞"))){
+        return true;
+      }
+      else{
+          return false;
+      }
+      return false;
+    }
+
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     response.setContentType("text/html");
     PrintWriter out = response.getWriter();
     out.println("<html><head><link href='/style.css' rel='stylesheet'/></head><body onload='startAnimation()'>");
 
     ServletContext context = getServletContext();
-    Integer count = (Integer) context.getAttribute("count");
+    Integer count = (Integer) context.getAttribute("count"); // nastavimo štetje rund
     if (count == null) {
-      count = 0;
-    } else {
-      count++;
+      count = 2;
     }
     context.setAttribute("count", count);
     if (count%2 !=0){
-      out.println("<script src='script.js'></script>");
+      out.println("<script src='script.js'></script>"); // če je število liho, se zažene animacija za spremembo barve v temnejšo
     }
     
 
-    // check if a value is being updated
+    // Preveri če se je vrednost spremenila
     String From = request.getParameter("From");
     String To = request.getParameter("To");
+
+    boolean isLegal = false;
     
-    if (From != null && To != null) {
+    if (From != null && To != null) { // če vrednosti nista nič, se ne izvede
       try {
        String newValue = " ";
        String[]location = From.split("");
        int i = Integer.parseInt(location[1])-1;
        int j =0;
-       if (count%2!=0){
+       if (count%2!=0){ // določimo če je na vrsti beli ali črni
         j = cToNum(location[0]);
        }
        else{
@@ -429,18 +518,20 @@ public class Main extends HttpServlet {
        
 
 
-        // check if index is within bounds
+        // preveri če je vrednost veljavna
         if (i < 0 || i >= array.length) {
          out.println("<br>");
          out.println("Invalid index: " + i);
          return;
         }
 
-        // update the value in the array
+        // shranimo figuro, ki jo premikamo
         String oldValue = array[i][j];
-        array[i][j] = newValue;
+        
 
 
+
+        // dobimo legalne premike figure
         List<String> legalM = legalMove(oldValue, i, location[0], array, count);
         out.println(legalM.size() + "SIZE!!!!");
         for (String lm:legalM){
@@ -449,6 +540,8 @@ public class Main extends HttpServlet {
           out.println("<p>"+lm + " Legal move"+"<p>");
           if (lm.equals(To)){
             out.println("IT IS LEGAL!!!!!!");
+            isLegal = true;
+            array[i][j] = newValue;
           }
         }
 
@@ -463,7 +556,20 @@ public class Main extends HttpServlet {
           j = cToNumB(location[0]);
         }
 
-        array[i][j] = oldValue;
+        if (oldValue.equals("♔")){
+          if (checkForCheckW(i, j, array, count)){
+            out.println("CHECK!!!!");
+          }
+          else{
+            isLegal = true;
+            out.print(array[i-1][j-1] + "<- ->" + array[i-1][j+1]);
+          }
+        }
+
+        if (isLegal){
+          array[i][j] = oldValue;
+        }
+        
 
         
 
@@ -494,6 +600,10 @@ public class Main extends HttpServlet {
       out.println("</tr>");
       out.println("</table>");
       out.println("</div>");
+      if (isLegal || count == 2){
+        count++;
+        context.setAttribute("count", count);
+      }
     }
     else{
       out.println("<div class='board'>");
@@ -513,6 +623,10 @@ public class Main extends HttpServlet {
         out.println("</tr>");
         out.println("</table>");
         out.println("</div>");
+        if (isLegal || count == 2){
+          count++;
+          context.setAttribute("count", count);
+        }
      }  
 
     
