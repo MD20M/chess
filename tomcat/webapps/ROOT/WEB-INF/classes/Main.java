@@ -21,62 +21,60 @@ public class Main extends HttpServlet {
     {" ", " ", " ", " ", " ", " ", " ", " "},
     {"♙", "♙", "♙", "♙", "♙", "♙", "♙", "♙"},
     {"♖", "♘", "♗", "♕", "♔", "♗", "♘", "♖"}
-};
+  };
 
     public static int cToNum(String cPos) { //Metoda pretvori koordinato y bele figure predstavljeno s črko v število
       if (cPos.equals("A")) {
        return 0;
      }
-      if (cPos.equals("B")) {
+      else if (cPos.equals("B")) {
         return 1;
       }
-      if (cPos.equals("C")) {
+      else if (cPos.equals("C")) {
         return 2;
      }
-      if (cPos.equals("D")) {
+      else if (cPos.equals("D")) {
        return 3;
       }
-      if (cPos.equals("E")) {
+      else if (cPos.equals("E")) {
        return 4;
       }
-      if (cPos.equals("F")) {
+      else if (cPos.equals("F")) {
         return 5;
       }
-      if (cPos.equals("G")) {
+      else if (cPos.equals("G")) {
         return 6;
       }
-      if (cPos.equals("H")) {
+      else if (cPos.equals("H")) {
         return 7;
       }
-      return 0;
     }
 
     public static int cToNumB(String cPos) { //Metoda pretvori koordinato y bele figure predstavljeno s črko v število
       if (cPos.equals("A")) {
        return 7;
      }
-      if (cPos.equals("B")) {
+      else if (cPos.equals("B")) {
         return 6;
       }
-      if (cPos.equals("C")) {
+      else if (cPos.equals("C")) {
         return 5;
      }
-      if (cPos.equals("D")) {
+      else if (cPos.equals("D")) {
        return 4;
       }
-      if (cPos.equals("E")) {
+      else if (cPos.equals("E")) {
        return 3;
       }
-      if (cPos.equals("F")) {
+      else if (cPos.equals("F")) {
         return 2;
       }
-      if (cPos.equals("G")) {
+      else if (cPos.equals("G")) {
         return 1;
       }
-      if (cPos.equals("H")) {
+      else if (cPos.equals("H")) {
         return 0;
       }
-      return 0;
     }
     
     public static List<String> legalMove(String piece, int i, String jl, String[][] t, int turn){ //Metoda preveri ali je premik figure legalen
@@ -91,10 +89,10 @@ public class Main extends HttpServlet {
       
       if (piece=="♙"){ //Legalni premiki za belega kmeta
         if (i-1 <= t.length && t[i-1][j].equals(" ")){
-          legalMovesList.add(jl+""+(i));
+          legalMovesList.add(jl+""+(i-1));
         }
         if (i==6 && t[i-2][j].equals(" ")){
-          legalMovesList.add(jl+""+(i));
+          legalMovesList.add(jl+""+(i-2));
         }
         if (j-1 >= 0 && i-1 <= t.length && t[i-1][j-1]!=" "){
           legalMovesList.add((char)(jl.charAt(0)-1)+""+(i));
@@ -556,7 +554,7 @@ public class Main extends HttpServlet {
           j = cToNumB(location[0]);
         }
 
-        if (oldValue.equals("♔")){
+        if (oldValue.equals("♔")){ // dobimo če je kralj v šahu v v njegovem naslednjem premiku
           if (checkForCheckW(i, j, array, count)){
             out.println("CHECK!!!!");
           }
@@ -580,7 +578,7 @@ public class Main extends HttpServlet {
         out.println("Invalid value: " + From);
       }
     }
-    // display the board
+    // izpišemo šahovnico
     if (count%2 == 0){
       out.println("<div class='board'>");
       out.println("<table>");
@@ -603,6 +601,11 @@ public class Main extends HttpServlet {
       if (isLegal || count == 2){
         count++;
         context.setAttribute("count", count);
+      }
+      else{
+        out.print("<div class='illegalNotification'>");
+        out.print("<p>The move you entered is illegal!</p>");
+        out.print("</div>");
       }
     }
     else{
@@ -627,11 +630,16 @@ public class Main extends HttpServlet {
           count++;
           context.setAttribute("count", count);
         }
+        else{
+          out.print("<div class='illegalNotification'>");
+          out.print("<p>The move you entered is illegal!</p>");
+          out.print("</div>");
+        }
      }  
 
     
 
-    // display the form to update a value
+    // izpišemo meni za vpis premikov
     out.println("<div class='controllMenu'>");
     out.println("<form method='get'>");
     out.println("<p class='cm'>Control Menu</p><br>");
